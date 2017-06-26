@@ -1,0 +1,137 @@
+body {
+  font-family: Helvetica;
+  color: seashell;
+  text-align: center;
+  background-color: black;
+  font-size: 22px;
+  opacity: 0.9;
+  margin-top: 0px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+
+nav {
+  text-align: right;
+  flex-grow: 1;
+  padding-right: 10px;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+.header img {
+  padding-left: 10px;
+  height: 50px;
+}
+
+a {
+  color: Seashell;
+}
+
+.content {
+  padding-top: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  }
+
+#Mission {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  width: 1200px;
+  height: 700px;
+  margin-bottom: 50px;
+}
+
+.banner {
+  background-color: black;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+#Featured {
+  width: 1000px;
+}
+
+.teas {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tea h4 {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.tea img {
+  padding: 15px 15px;
+}
+
+#Locations {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  width: 1200px;
+  height: 500px;
+  padding-top: 70px;
+  margin-top: 70px;
+  text-align: center;
+  }
+
+.location {
+  background-color: black;
+  width: 300px;
+  opacity: 1;
+  margin: 0px 20px;
+  }
+
+.blocks {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+#Locations h2 {
+  padding-top: 20px;
+  margin-bottom: 0px;
+}
+
+.location p {
+  margin: 30px auto;
+  opacity: 1;
+}
+
+.location h3 {
+  margin: 15px auto;
+}
+
+.footer {
+  height: 200px;
+  width: 100%;
+}
+
+.copyright {
+  width: 100%;
+  text-align: left;
+  margin-left: 20px;
+}
+
+h2, h3, h4 {
+  margin: 0px;
+  padding: 10px;
+}
